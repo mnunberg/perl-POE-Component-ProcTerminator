@@ -15,7 +15,9 @@ WriteMakefile(
         'Test::More' => 0,
         'POE'       => 0,
         'POE::Sugar::Attributes' => '0.02',
-        'Proc::Terminator' => '0.03'
+        'Proc::Terminator' => '0.03',
+        'Class::Struct'     => 0,
+        'Constant::Generate' => 0.16
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'POE-Component-ProcTerminator-*' },
