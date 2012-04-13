@@ -1,0 +1,7 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/POE/Component/ProcTerminator.pm
+t/00-load.t
+t/01-all.t
